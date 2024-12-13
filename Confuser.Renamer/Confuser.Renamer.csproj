@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 
   <Import Project="..\ConfuserEx.Common.props" Condition="Exists('..\ConfuserEx.Common.props')" />
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup Label="Nuget Dependencies">
-    <PackageReference Include="System.IO.Packaging" Version="6.*" />
+    <PackageReference Include="System.IO.Packaging" Version="8.*" />
     <PackageReference Include="System.Runtime.Extensions" Version="4.3.*" />
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
   </ItemGroup>
